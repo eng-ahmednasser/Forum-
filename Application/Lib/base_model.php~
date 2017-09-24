@@ -1,0 +1,26 @@
+<?php
+/**
+ * Description of base_model
+ *
+ * @author ahmed
+ */
+class base_model  extends DAO{
+    public function __construct() {
+        echo 'here  main model';
+        parent::__construct();
+        //$this->Conn = new DAO();
+    }
+    public function addAction() {
+  
+    }
+    public function editAction() {
+        
+    }
+        public function deleteAction() {
+        
+    }
+        public function showAction() {
+       
+    }
+
+}
